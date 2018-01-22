@@ -4,6 +4,9 @@ const imgs = document.querySelectorAll('.imgs img');
 /* Event listener for images */
 
 imgs.forEach (img => 
-    img.addEventListener('click', e => (current.src =
-    e.target.src))
+    img.addEventListener('click', imgClick)
 );
+
+function imgClick(e) {
+    current.src = e.target.src;
+}
