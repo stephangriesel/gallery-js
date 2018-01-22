@@ -1,0 +1,26 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    background-color: #797979;
+    margin:20px
+}
+
+.container {
+    max-width: 760px;
+    margin: auto;
+    border: #FFFFFF solid 5px;
+    background: #FFFFFF;
+}
+
+.main-img img, .imgs img {
+    width: 100%;
+}
+
+.imgs {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:5px;
+}
